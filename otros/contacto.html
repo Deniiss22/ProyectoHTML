@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+
+    <header></header>
+
+    <main>
+        <!--
+            method POST oculta los datos enviados por el formulario | GET muestra en la URL los datos enviados por el formulario
+            action: URL donde se enviará el formulario
+        -->
+        <form method="get" action="noticias.html" >
+            Ingrese su nombre:
+            <input type="text" name="txtNombre" 
+            value="No especificado" tooltipText="Aquí su nombre" required >
+            <button type="submit" name="btnEnviar"> Enviar </button>
+
+        </form>
+
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
